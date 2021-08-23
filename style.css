@@ -1,0 +1,142 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: fantasy;
+}
+
+header{
+  margin: 50px;
+  text-align: center;
+}
+
+header h1{
+  border: 3px;
+  border-style: dashed;
+  border-color: black;
+}
+
+.pads{
+  width: 100%;
+  display: flex;
+  background: black;
+}
+
+.visual{
+  height: 300px;
+}
+
+html{
+  background: lightcyan; 
+ }
+
+.pads > div {
+  height: 250px;
+  width: 100px;
+  flex: 1;
+}
+
+.pads .pad1{
+  background-image: url(./lufy.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: white;
+}
+.pads .pad2{
+  background-image: url(./anime-icon-png-7.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: white;
+}
+.pads .pad3{
+  background-image: url(./railgun.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: white;
+
+}
+.pads .pad4{
+  background-image: url(./unnamed.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-style: dashed;
+  border: 3px;
+  border-color: white;
+
+}
+.pads .pad5{
+  background-image: url(./anime_icon664.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-color: white;
+
+}
+.pads .pad6{
+  background-image: url(./anime_icon6373.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-color: white;
+}
+
+.pads .pad1:hover{
+  cursor: pointer;
+  background-color: bisque;
+}
+.pads .pad2:hover{
+  cursor: pointer;
+  background-color: bisque;
+}
+.pads .pad3:hover{
+  cursor: pointer;
+  background-color: bisque;
+}
+.pads .pad4:hover{
+  cursor: pointer;
+  background-color: bisque;
+}
+.pads .pad5:hover{
+  cursor: pointer;
+  background-color: bisque;
+}
+.pads .pad6:hover{
+  cursor: pointer;
+  background-color: bisque;
+}
+
+@keyframes jump{
+  0%{
+    bottom:0%;
+    left:20%;
+  }
+  50%{
+    bottom: 50%;
+    left:50%
+  }
+  100%{
+    bottom:0%;
+    left:80%;
+  }
+}
+
+.visual > div{
+  position: absolute;
+  height:50px;
+  width:50px;
+  border-radius: 50%;
+  bottom: 0%;
+}
+
+footer.footer{
+  text-align: center;
+  background: aqua;
+}
